@@ -1,0 +1,285 @@
+<resources>
+    <string name="app_name">Green Alert</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_about">About Green Alert</string>
+    <string name="action_about">About</string>
+    <string name="action_switch_language">Switch Language</string>
+
+    <!-- Details Screen -->
+    <string name="ideal_cultivation_percentage_label">Ideal Cultivation Percentage:</string>
+    <string name="warnings_label">Warnings:</string>
+    <string name="tips_label">Tips &amp; Recommendations:</string>
+    <string name="optimal_range">Optimal Range</string>
+    <string name="worst_range">Worst Range</string>
+    <string name="suitable_crops_label">Suitable Crops</string>
+    <string name="best_planting_time_label">Best Time for Planting</string>
+    <string name="best_locations_label">Best Locations</string>
+    <string name="not_specified">Not specified</string>
+
+
+    <!-- About Screen -->
+    <string name="app_version">Version 1.0.0</string>
+    <string name="copyright_info">© 2024 Green Alert Team. All rights reserved.</string>
+    <string name="data_sources_label">Data Sources:</string>
+    <string name="data_sources_content">Information provided in this app is based on aggregated agricultural research and expert recommendations.</string>
+    <string name="contact_us">Contact: support@greenalert.com</string>
+
+
+
+    <!-- Language Dialog -->
+    <string name="language_dialog_title">choose language</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">العربية</string>
+
+
+    <!-- Language Selection Screen -->
+    <string name="title_activity_language_selection">Choose Your Language</string>
+
+
+
+
+
+        <string-array name="indicator_salinity">
+
+
+            <item>Soil Salinity</item>
+
+
+            <item>Indicates the salinity level of soil and its impact on plant growth.</item>
+
+
+            <item>Less than 4 dS/m</item>
+
+
+            <item>More than 4 dS/m</item>
+
+
+            <item>Increased soil salinity may lead to poor water absorption and plant growth cessation.</item>
+
+
+            <item>Use salt-tolerant crops, improve drainage, avoid saline water.</item>
+
+
+            <item>wheat, barley, peanuts</item>
+
+
+            <item>early spring</item>
+
+
+            <item/>
+
+
+            <item>Soil</item>
+
+
+        </string-array>
+
+
+        <string-array name="indicator_sfi">
+
+
+            <item>Soil Fertility Index</item>
+
+
+            <item>A measure of the soil’s fertility and its ability to support plant growth.</item>
+
+
+            <item>60% - 80%</item>
+
+
+            <item>Less than 40%</item>
+
+
+            <item>Low SFI indicates a deficiency in essential nutrients.</item>
+
+
+            <item>Add fertilizers and rotate crops for long-term improvement.</item>
+
+
+            <item>wheat, corn, alfalfa</item>
+
+
+            <item>spring or fall</item>
+
+
+            <item>fertile agricultural lands</item>
+
+
+            <item>Soil</item>
+
+
+        </string-array>
+
+
+        <string-array name="indicator_ndmi">
+
+
+            <item>NDMI</item>
+
+
+            <item>Normalized Difference Moisture Index for detecting drought or excess moisture.</item>
+
+
+            <item>0.2 - 0.5</item>
+
+
+            <item>&lt;0.2 or &gt;0.8</item>
+
+
+            <item>Low NDMI indicates drought; high indicates excess moisture.</item>
+
+
+            <item>Use drip irrigation or improve drainage depending on condition.</item>
+
+
+            <item>sorghum, barley, millet (drought), rice (moisture)</item>
+
+
+            <item>spring or fall</item>
+
+
+            <item>dry or wet regions accordingly</item>
+
+
+            <item>Moisture</item>
+
+
+        </string-array>
+
+
+        <string-array name="indicator_ser">
+
+
+            <item>Soil Erosion Risk</item>
+
+
+            <item>Represents the soil\'s vulnerability to erosion by wind or water.</item>
+
+
+            <item>&lt; 10%</item>
+
+
+            <item>&gt; 30%</item>
+
+
+            <item>High erosion risk reduces fertility and complicates planting.</item>
+
+
+            <item>Use contour farming, windbreaks, or cover crops.</item>
+
+
+            <item>alfalfa, radish, barley, corn, sunflower</item>
+
+
+            <item>late autumn or spring</item>
+
+
+            <item>moderate slope, arid or near water</item>
+
+
+            <item>Soil</item>
+
+
+        </string-array>
+
+
+        <string-array name="indicator_vhi">
+
+
+            <item>Vegetation Health Index</item>
+
+
+            <item>Measures plant health and vitality based on vegetation signals.</item>
+
+
+            <item>50 - 100</item>
+
+
+            <item>&lt; 40</item>
+
+
+            <item>Low VHI reflects plant stress or nutrient deficiency.</item>
+
+
+            <item>Monitor soil/irrigation and use appropriate fertilization.</item>
+
+
+            <item>wheat, corn, peanuts, alfalfa</item>
+
+
+            <item>early spring or fall</item>
+
+
+            <item>flat or newly reclaimed lands</item>
+
+
+            <item>Vegetation</item>
+
+
+        </string-array>
+
+
+        <string-array name="indicator_sdl">
+            <item>Soil Depth Level</item>
+            <item>Indicates how deep the soil is for root growth.</item>
+            <item>&gt; 100 cm</item>
+            <item>&lt; 50 cm</item>
+            <item>Shallow soil restricts root growth and nutrient absorption.</item>
+            <item>Grow shallow-root crops, improve depth with organic matter.</item>
+            <item>lettuce, radish, onion, cabbage (shallow), corn, potatoes, sugar cane (deep)</item>
+            <item>spring or fall</item>
+            <item>flat or moderately prepared lands</item>
+            <item>Soil</item>
+        </string-array>
+        <string-array name="indicator_lst">
+            <item>Land Surface Temperature</item>
+            <item>Reflects the surface temperature\'s effect on crops.</item>
+            <item>20°C - 30°C</item>
+            <item>&gt; 40°C</item>
+            <item>High temperatures cause stress and reduce crop growth.</item>
+            <item>Use drip irrigation and plant heat-tolerant crops.</item>
+            <item>corn, flax, winter wheat (hot), tomatoes, potatoes (moderate)</item>
+            <item>early spring or winter</item>
+            <item>desert or heat-fluctuating regions</item>
+            <item>Temperature</item>
+        </string-array>
+        <string-array name="indicator_sti">
+            <item>Soil Texture Index</item>
+            <item>Describes soil structure, drainage, and water retention.</item>
+            <item>0.4 - 0.6</item>
+            <item>&lt; 0.3 or &gt; 0.7</item>
+            <item>Too sandy loses nutrients, too clayey holds water excessively.</item>
+            <item>Mix with compost or sand based on texture type.</item>
+            <item>tomatoes, potatoes, wheat (balanced), carrots, onions, peanuts (sandy), rice, sugarcane (clayey)</item>
+            <item>early spring or fall</item>
+            <item>prepared soil for optimal texture</item>
+            <item>Soil</item>
+        </string-array>
+        <string-array name="indicator_savi">
+            <item>Soil Adjusted Vegetation Index</item>
+            <item>Measures vegetation cover adjusted for soil reflection.</item>
+            <item>0.2 - 0.5</item>
+            <item>&lt; 0.1</item>
+            <item>Low SAVI means weak vegetation or visible bare soil.</item>
+            <item>Grow dense vegetation crops and irrigate properly.</item>
+            <item>corn, alfalfa, sunflower (high), prickly pear, barley (low)</item>
+            <item>spring or fall</item>
+            <item>areas needing vegetation improvement</item>
+            <item>Vegetation</item>
+        </string-array>
+        <string-array name="indicator_ndsi">
+            <item>Normalized Difference Snow Index</item>
+            <item>Assesses snow cover or moisture potential.</item>
+            <item>0.3 - 0.8</item>
+            <item>&lt; 0.0</item>
+            <item>Low NDSI indicates dry soil or water scarcity.</item>
+            <item>Use water-saving techniques or search alternative water sources.</item>
+            <item>olives, figs, barley (drought-resistance), others after snowmelt</item>
+            <item>spring after snow or adjust based on dryness</item>
+            <item>snowy or arid zones</item>
+            <item>Moisture</item>
+        </string-array>
+    </resources>
+

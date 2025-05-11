@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">جرين أليرت</string>
+    <string name="title_activity_splash">شاشة البداية</string>
+    <string name="title_activity_main">الرئيسية</string>
+    <string name="title_activity_details">التفاصيل</string>
+    <string name="title_activity_about">حول جرين أليرت</string>
+    <string name="action_about">حول التطبيق</string>
+    <string name="action_switch_language">تغيير اللغة</string>
+
+    <!-- Details Screen -->
+    <string name="ideal_cultivation_percentage_label">النسبة المثالية للزراعة:</string>
+    <string name="warnings_label">تحذيرات:</string>
+    <string name="tips_label">نصائح وتوصيات:</string>
+    <string name="optimal_range">النسبة المثالية</string>
+    <string name="worst_range">النسبة الأسوأ</string>
+    <string name="suitable_crops_label">المحاصيل المناسبة</string>
+    <string name="best_planting_time_label">أفضل وقت للزراعة</string>
+    <string name="best_locations_label">أفضل أماكن للزراعة</string>
+    <string name="not_specified">غير محدد</string>
+
+
+    <!-- About Screen -->
+    <string name="app_version">الإصدار 1.0.0</string>
+    <string name="copyright_info">© 2024 فريق جرين أليرت. جميع الحقوق محفوظة.</string>
+    <string name="data_sources_label">مصادر البيانات:</string>
+    <string name="data_sources_content">المعلومات المقدمة في هذا التطبيق تستند إلى أبحاث زراعية مجمعة وتوصيات الخبراء.</string>
+    <string name="contact_us">اتصل بنا: support@greenalert.com</string>
+
+    <!-- Language Dialog -->
+    <string name="language_dialog_title">اختر اللغة</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">العربية</string>
+
+    <!-- Language Selection Screen -->
+    <string name="title_activity_language_selection">اختر لغتك</string>
+
+
+    <string-array name="indicator_salinity">
+        <item>ملوحة التربة</item>
+        <item>مؤشر على مستوى ملوحة التربة وتأثيره على نمو النباتات.</item>
+        <item>أقل من 4 dS/m</item>
+        <item>أكثر من 4 dS/m</item>
+        <item>ارتفاع ملوحة التربة قد يضعف امتصاص الماء ويؤدي لتوقف النمو.</item>
+        <item>زراعة محاصيل مقاومة للملوحة، تحسين الصرف، تجنب استخدام المياه المالحة.</item>
+        <item>القمح، الشعير، الفول السوداني</item>
+        <item>بداية الربيع</item>
+        <item/>
+        <item>تربة</item>
+    </string-array>
+    <string-array name="indicator_sfi">
+        <item>مؤشر خصوبة التربة</item>
+        <item>مقياس لخصوبة التربة وقدرتها على دعم نمو النباتات.</item>
+        <item>60% - 80%</item>
+        <item>أقل من 40%</item>
+        <item>انخفاض الخصوبة يدل على نقص العناصر الغذائية الأساسية.</item>
+        <item>إضافة أسمدة وتدوير المحاصيل لتحسين الخصوبة.</item>
+        <item>القمح، الذرة، البرسيم</item>
+        <item>الربيع أو الخريف</item>
+        <item>أراضٍ زراعية خصبة جيدة التهوية والصرف</item>
+        <item>تربة</item>
+    </string-array>
+    <string-array name="indicator_ndmi">
+        <item>مؤشر الفرق الطبيعي للرطوبة</item>
+        <item>يكشف عن حالات الجفاف أو الرطوبة الزائدة في التربة.</item>
+        <item>0.2 - 0.5</item>
+        <item>&lt;0.2 أو &gt;0.8</item>
+        <item>القيم المنخفضة تشير إلى الجفاف، والمرتفعة إلى تشبع التربة.</item>
+        <item>استخدم الري بالتنقيط أو حسّن التصريف حسب الحالة.</item>
+        <item>الذرة البيضاء، الشعير، الدخن (جفاف)، الأرز (رطوبة)</item>
+        <item>الربيع أو الخريف</item>
+        <item>مناطق جافة أو رطبة حسب المؤشر</item>
+        <item>رطوبة</item>
+    </string-array>
+    <string-array name="indicator_ser">
+        <item>مؤشر خطر تعرية التربة</item>
+        <item>يمثل مدى تعرض التربة للتعرية بفعل الرياح أو المياه.</item>
+        <item>أقل من 10%</item>
+        <item>أكثر من 30%</item>
+        <item>الخطر العالي يعني فقدان التربة وصعوبة الزراعة.</item>
+        <item>زراعة على خطوط كنتور، مصدات رياح، محاصيل تغطية.</item>
+        <item>البرسيم، الفجل، الشعير، الذرة، عباد الشمس</item>
+        <item>الخريف المتأخر أو الربيع</item>
+        <item>أراضٍ منحدرة أو قرب مجاري مياه</item>
+        <item>تربة</item>
+    </string-array>
+    <string-array name="indicator_vhi">
+        <item>مؤشر صحة الغطاء النباتي</item>
+        <item>يقيس صحة وحيوية النباتات بناءً على الغطاء النباتي.</item>
+        <item>50 - 100</item>
+        <item>أقل من 40</item>
+        <item>انخفاض VHI يدل على إجهاد النبات أو نقص الغذاء.</item>
+        <item>تابع التربة والري وخصب جيدًا.</item>
+        <item>القمح، الذرة، الفول السوداني، البرسيم</item>
+        <item>بداية الربيع أو الخريف</item>
+        <item>أراضٍ مستوية أو تم استصلاحها حديثًا</item>
+        <item>نبات</item>
+    </string-array>
+    <string-array name="indicator_sdl">
+        <item>مؤشر عمق التربة</item>
+        <item>يحدد مدى عمق التربة لنمو الجذور.</item>
+        <item>أكثر من 100 سم</item>
+        <item>أقل من 50 سم</item>
+        <item>التربة الضحلة تحد من نمو الجذور وامتصاص الغذاء.</item>
+        <item>زرع محاصيل ذات جذور سطحية وتحسين العمق بالمواد العضوية.</item>
+        <item>الخس، الفجل، البصل، الكرنب (ضحلة)، الذرة، البطاطس، القصب (عميقة)</item>
+        <item>الربيع أو الخريف</item>
+        <item>أراضٍ مستوية أو محضرة بشكل معتدل</item>
+        <item>تربة</item>
+    </string-array>
+    <string-array name="indicator_lst">
+        <item>مؤشر درجة حرارة سطح الأرض</item>
+        <item>يعكس تأثير حرارة السطح على نمو المحاصيل.</item>
+        <item>20°C - 30°C</item>
+        <item>أعلى من 40°C</item>
+        <item>الحرارة العالية تسبب إجهاد النباتات وضعف النمو.</item>
+        <item>استخدام الري بالتنقيط وزراعة محاصيل مقاومة للحرارة.</item>
+        <item>الذرة، الكتان، القمح الشتوي (حار)، الطماطم، البطاطا (معتدل)</item>
+        <item>الربيع أو الشتاء المبكر</item>
+        <item>مناطق صحراوية أو بها تقلبات حرارية</item>
+        <item>حرارة</item>
+    </string-array>
+    <string-array name="indicator_sti">
+        <item>مؤشر نسيج التربة</item>
+        <item>يصف بنية التربة وتصريفها واحتفاظها بالماء.</item>
+        <item>0.4 - 0.6</item>
+        <item>أقل من 0.3 أو أكثر من 0.7</item>
+        <item>الرملية تفقد الماء بسرعة، والطينية تحتفظ به بشكل مفرط.</item>
+        <item>اخلط مع كمبوست أو رمل حسب نوع النسيج.</item>
+        <item>الطماطم، البطاطس، القمح (متوازن)، الجزر، البصل، الفول السوداني (رملي)، الأرز، قصب السكر (طيني)</item>
+        <item>بداية الربيع أو الخريف</item>
+        <item>أراضٍ محضرة بنسيج مناسب</item>
+        <item>تربة</item>
+    </string-array>
+    <string-array name="indicator_savi">
+        <item>مؤشر الغطاء النباتي المعدّل للتربة</item>
+        <item>يقيس الغطاء النباتي بعد تعديل تأثير التربة الظاهرة.</item>
+        <item>0.2 - 0.5</item>
+        <item>أقل من 0.1</item>
+        <item>SAVI المنخفض يدل على غطاء نباتي ضعيف أو تربة مكشوفة.</item>
+        <item>زراعة محاصيل كثيفة والري المنتظم.</item>
+        <item>الذرة، البرسيم، عباد الشمس (مرتفع)، التين الشوكي، الشعير (منخفض)</item>
+        <item>الربيع أو الخريف</item>
+        <item>مناطق بحاجة لتحسين غطاء نباتي</item>
+        <item>نبات</item>
+    </string-array>
+    <string-array name="indicator_ndsi">
+        <item>مؤشر الفرق المُطَبّع للثلوج</item>
+        <item>يقيم الغطاء الثلجي وإمكانية توفر الرطوبة.</item>
+        <item>0.3 - 0.8</item>
+        <item>أقل من 0.0</item>
+        <item>انخفاض NDSI يعني جفاف التربة أو نقص مياه.</item>
+        <item>تحسين استراتيجيات الري أو استخدام المياه الجوفية.</item>
+        <item>الزيتون، التين، الشعير (مقاومة للجفاف)، ومحاصيل رطبة بعد ذوبان الثلوج</item>
+        <item>الربيع بعد ذوبان الثلج أو حسب الجفاف</item>
+        <item>مناطق ثلجية أو قاحلة</item>
+        <item>رطوبة</item>
+    </string-array>
+
+</resources> 
