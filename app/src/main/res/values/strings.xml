@@ -36,12 +36,17 @@
 
     <!-- Language Selection Screen -->
     <string name="title_activity_language_selection">Choose Your Language</string>
+    <string name="activate_process">Activate Process</string>
+    <string name="select_date">Select Date</string>
+    <string name="process_list">Process List</string>
+    <string name="process_name">Process Name</string>
+    <string name="activateProcess">Activate Process</string>
+    <string name="save">Save</string>
+    <string name="please_enter_a_name_and_select_a_date">Please enter a name and select a date</string>
+    <string name="process_saved">Process saved!</string>
 
 
-
-
-
-        <string-array name="indicator_salinity">
+    <string-array name="indicator_salinity">
 
 
             <item>Soil Salinity</item>
