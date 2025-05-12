@@ -21,7 +21,7 @@
 
     <!-- About Screen -->
     <string name="app_version">الإصدار 1.0.0</string>
-    <string name="copyright_info">© 2024 فريق جرين أليرت. جميع الحقوق محفوظة.</string>
+    <string name="copyright_info">© 2025 فريق جرين أليرت. جميع الحقوق محفوظة.</string>
     <string name="data_sources_label">مصادر البيانات:</string>
     <string name="data_sources_content">المعلومات المقدمة في هذا التطبيق تستند إلى أبحاث زراعية مجمعة وتوصيات الخبراء.</string>
     <string name="contact_us">اتصل بنا: support@greenalert.com</string>
