@@ -21,7 +21,6 @@ class ProcessListActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbarProcessList)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = getString(R.string.process_list)
-
         binding.recyclerViewProcesses.layoutManager = LinearLayoutManager(this)
         loadProcesses()
     }
