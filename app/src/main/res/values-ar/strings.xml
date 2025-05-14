@@ -21,7 +21,7 @@
 
     <!-- About Screen -->
     <string name="app_version">الإصدار 1.0.0</string>
-    <string name="copyright_info">© 2024 فريق جرين أليرت. جميع الحقوق محفوظة.</string>
+    <string name="copyright_info">© 2025 فريق جرين أليرت. جميع الحقوق محفوظة.</string>
     <string name="data_sources_label">مصادر البيانات:</string>
     <string name="data_sources_content">المعلومات المقدمة في هذا التطبيق تستند إلى أبحاث زراعية مجمعة وتوصيات الخبراء.</string>
     <string name="contact_us">اتصل بنا: support@greenalert.com</string>
@@ -33,7 +33,14 @@
 
     <!-- Language Selection Screen -->
     <string name="title_activity_language_selection">اختر لغتك</string>
-
+    <string name="activate_process">تفعيل عملية</string>
+    <string name="select_date">اختر التاريخ</string>
+    <string name="process_list"> قائمة العمليات</string>
+    <string name="process_name">اسم العملية</string>
+    <string name="activateProcess">تفعيل العملية</string>
+    <string name="save">حفظ</string>
+    <string name="please_enter_a_name_and_select_a_date">يرجى إدخال اسم واختيار تاريخ</string>
+    <string name="process_saved">تم حفظ العملية!</string>
 
     <string-array name="indicator_salinity">
         <item>ملوحة التربة</item>
@@ -44,7 +51,7 @@
         <item>زراعة محاصيل مقاومة للملوحة، تحسين الصرف، تجنب استخدام المياه المالحة.</item>
         <item>القمح، الشعير، الفول السوداني</item>
         <item>بداية الربيع</item>
-        <item/>
+        <item />
         <item>تربة</item>
     </string-array>
     <string-array name="indicator_sfi">

@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.greenalert">
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -35,6 +37,9 @@
             android:name=".LanguageSelectionActivity"
             android:exported="false"
             android:theme="@style/Theme.GreenAlert.NoActionBar" />
+        <activity
+            android:name=".ProcessListActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
