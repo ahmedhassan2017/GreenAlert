@@ -44,6 +44,7 @@
     <string name="save">Save</string>
     <string name="please_enter_a_name_and_select_a_date">Please enter a name and select a date</string>
     <string name="process_saved">Process saved!</string>
+    <string name="our_website">Our Website</string>
 
 
     <string-array name="indicator_salinity">

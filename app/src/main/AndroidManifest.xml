@@ -4,6 +4,7 @@
     package="com.example.greenalert">
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -39,6 +40,9 @@
             android:theme="@style/Theme.GreenAlert.NoActionBar" />
         <activity
             android:name=".ProcessListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewActivity"
             android:exported="false" />
     </application>
 

@@ -41,6 +41,7 @@
     <string name="save">حفظ</string>
     <string name="please_enter_a_name_and_select_a_date">يرجى إدخال اسم واختيار تاريخ</string>
     <string name="process_saved">تم حفظ العملية!</string>
+    <string name="our_website">موقعنا</string>
 
     <string-array name="indicator_salinity">
         <item>ملوحة التربة</item>

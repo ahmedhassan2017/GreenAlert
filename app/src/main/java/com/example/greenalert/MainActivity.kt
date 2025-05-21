@@ -112,6 +112,10 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, ProcessListActivity::class.java))
                 true
             }
+            R.id.action_our_website -> {
+                startActivity(Intent(this, WebViewActivity::class.java))
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
